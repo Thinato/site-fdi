@@ -308,14 +308,46 @@ a.menu-link { display: none; }
     max-height: 100%;
     overflow: hidden;
     margin-bottom: -7px;
-    background-image: url(../images/curso-main.jpg);
-    background-color: #172238;
-    background-size: cover;
     min-width: 100%;
     min-height: 100vh;
     max-width: 100%;
     max-height: 100vh;
 
+}
+.automacao-industrial {
+    background-color: #172238;
+    background-image: url(../images/automacao-industrial.jpg);
+    background-size: cover;
+}
+.engenharia-de-producao {
+    background-color: #172238;
+    background-image: url(../images/engenharia-de-producao.jpg);
+    background-size: cover;
+}
+.engenharia-de-software {
+    background-color: #172238;
+    background-image: url(../images/engenharia-de-software.png);
+    background-size: cover;
+}
+.engenharia-mecanica {
+    background-color: #172238;
+    background-image: url(../images/engenharia-mecanica.jpg);
+    background-size: cover;
+}
+.engenharia-mecatronica {
+    background-color: #172238;
+    background-image: url(../images/engenharia-mecatronica.jpg);
+    background-size: cover;
+}
+.engenharia-quimica {
+    background-color: #172238;
+    background-image: url(../images/engenharia-quimica.jpg);
+    background-size: cover;
+}
+.fabricacao-mecanica {
+    background-color: #172238;
+    background-image: url(../images/fabricacao-mecanica.jpg);
+    background-size: cover;
 }
 
 .main-banner .caption {
@@ -506,143 +538,12 @@ section.conteudo {
     padding-bottom: 0px;
 }
 
-
-#tabs {
-  text-align: center;
-}
-#tabs ul {
-  margin: 0;
-  padding: 0;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-gap: 0;
-  -moz-column-gap: 0;
-  column-gap: 0;
-}
-#tabs ul::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-#tabs ul li {
-  display: block;
-  font-weight: 400;
-  font-size: 1.2em;
-  letter-spacing: 1px;
-  text-align: center;
-}
-#tabs ul li a {
-  display: block;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  cursor: pointer;
-  outline: 0;
-  padding-bottom: 30px;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  position: relative;
-}
-#tabs h4 em {
-    font-style: normal;
-    color: #f5a425;
-}
-#tabs ul li a:after {
-    transition: all 0.3s;
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 0;
-}
-#tabs ul li a:before {
-    transition: all 0.3s;
-    width: 25px;
-    height: 25px;
-    border: 2px solid transparent;
-    background-color: transparent;
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: -5px;
-}
-#tabs ul li span {
-  display: block;
-  margin-bottom: 0.75em;
-}
-#tabs ul .ui-tabs-active {
-}
-#tabs ul .ui-tabs-active a {
-  color: #f5a425;
-}
-#tabs ul .ui-tabs-active a:after {
-  background-color: #f5a425;
-  width: 15px;
-  height: 15px;
-}
-#tabs ul .ui-tabs-active a:before {
-  border-color: #f5a425;
-}
-#tabs h4 {
-    margin-top: 10px;
-    font-size: 30px;
-    font-weight: 600;
+.info p {
+    font-size: 20px;
     letter-spacing: 1px;
     color: #fff;
     margin-bottom: 30px;
-    text-align: center;
 }
-#tabs h3{
-    margin-top: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #fff;
-}
-
-#tabs p {
-    color: #fff;
-    font-size: 16px;
-    line-height: 28px;
-}
-
-.tabs-content {
-    margin-top: px;
-    margin-bottom: 35px;
-    text-align: left;
-}
-
-@media screen and (max-width: 767px) {
-  
-  .tabs-content {
-      text-align: center;
-  }
-
-}
-
-.tabs-content img {
-    width: 100%;
-    overflow: hidden;
-    padding-right: 45px;
-    padding-top: 45px;
-}
-
-@media screen and (max-width: 767px) {
-
-  .tabs-content img {
-      padding-right: 0px;
-  }
-
-}
-
-
-/* Coming Soon */
 
 section.coming-soon {
     background-image: url(../images/coming-soon-bg.jpg);
@@ -903,6 +804,141 @@ section.courses .owl-carousel button.active {
 }
 
 
+section.avisos {
+    background-image: url(../images/choosing-bg.jpg);
+    background-color: #172238;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+#tabs {
+  text-align: center;
+}
+#tabs ul {
+  margin: 0;
+  padding: 0;
+  -webkit-column-count: 10;
+  -moz-column-count: 10;
+  column-count: 10;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
+}
+#tabs ul::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+#tabs ul li {
+  display: block;
+  font-weight: 400;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+#tabs ul li a {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: 0;
+  padding-bottom: 30px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+}
+#tabs ul li a:after {
+    transition: all 0.3s;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+#tabs ul li a:before {
+    transition: all 0.3s;
+    width: 25px;
+    height: 25px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -5px;
+}
+#tabs ul li span {
+  display: block;
+  margin-bottom: 0.75em;
+}
+#tabs ul .ui-tabs-active {
+}
+#tabs ul .ui-tabs-active a {
+  color: #f5a425;
+}
+#tabs ul .ui-tabs-active a:after {
+  background-color: #f5a425;
+  width: 15px;
+  height: 15px;
+}
+#tabs ul .ui-tabs-active a:before {
+  border-color: #f5a425;
+}
+#tabs h4 {
+    margin-top: 60px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+#tabs h3 {
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+#tabs p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.tabs-content {
+    margin-top: 60px;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  
+  .tabs-content {
+      text-align: center;
+  }
+
+}
+
+.tabs-content img {
+    width: 100%;
+    overflow: hidden;
+    padding-right: 45px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .tabs-content img {
+      padding-right: 0px;
+  }
+
+}
 
 
 
@@ -1467,88 +1503,10 @@ img.mfp-img {
 
 
 
-/* Contact */
-
-section.contact {
-    background-image: url(../images/contact-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #172238;
-    padding-bottom: 120px;
-}
+/* Contatos */
 
 
-section.contact form {
-    background-color: rgba(250,250,250,0.1);
-    padding: 30px;
-    width: 100%;
-}
 
-
-@media screen and (max-width: 767px) {  
-  section.contact form {
-      margin-bottom: 30px;
-  }
-}
-
-section.contact form input {
-    width: 100%;
-    height: 40px;
-    background-color: rgba(250,250,250,0.1);
-    border-radius: 0px;
-    border: none;
-    outline: none;
-    color: #fff;
-    font-size: 13px;
-    margin-bottom: 30px;
-    letter-spacing: 0.5px;
-}
-
-section.contact form textarea {
-    width: 100%;
-    height: 220px;
-    max-height: 280px;
-    min-height: 220px;
-    background-color: rgba(250,250,250,0.1);
-    border-radius: 0px;
-    border: none;
-    outline: none;
-    color: #fff;
-    font-size: 13px;
-    margin-bottom: 30px;
-    letter-spacing: 0.5px;
-}
-
-section.contact form input:focus,
-section.contact form textarea:focus {
-    outline: none;
-    border: none;
-    box-shadow: none;
-    color: #fff;
-    background-color: rgba(250,250,250,0.1);
-}
-
-section.contact form::placeholder { color: #fff }
-section.contact form input::placeholder { color: #fff; }
-section.contact form input::placeholder { color: #fff; }
-
-section.contact form::placeholder { color: #fff }
-section.contact form textarea::placeholder { color: #fff; }
-section.contact form textarea::placeholder { color: #fff; }
-
-section.contact form button {
-    background-color: #f5a425;
-    color: #fff;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-weight: 700;
-    padding: 12px 20px;
-    display: inline-block;
-    outline: none;
-    box-shadow: none;
-    border: none;
-}
 
 /* Footer */
 
